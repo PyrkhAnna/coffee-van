@@ -12,18 +12,22 @@
 	 <maven.compiler.target>1.8</maven.compiler.target>
   </properties>
   <dependencies>
-    
-     <dependency>
+    <dependency>
+      <groupId>junit</groupId>
+      <artifactId>junit</artifactId>
+      <version>4.12</version>
+      <scope>test</scope>
+    </dependency>
+    <dependency>
       	<groupId>org.apache.logging.log4j</groupId>
       	<artifactId>log4j-api</artifactId>
      	<version>2.8</version>
-     </dependency>
+    </dependency>
     <dependency>
      	<groupId>org.apache.logging.log4j</groupId>
      	<artifactId>log4j-core</artifactId>
      	<version>2.8</version>
-      </dependency>
-   
+     </dependency>
    
   </dependencies>
    <build>
@@ -32,8 +36,7 @@
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-surefire-plugin</artifactId>
                 <version>2.19.1</version>
-                
-            </plugin>
+             </plugin>
         </plugins>
   </build>
  
