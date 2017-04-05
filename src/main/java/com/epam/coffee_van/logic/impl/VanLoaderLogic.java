@@ -3,8 +3,8 @@ package com.epam.coffee_van.logic.impl;
 import java.math.BigDecimal;
 import com.epam.coffee_van.entity.Coffee;
 import com.epam.coffee_van.entity.VanLoader;
-import com.epam.coffee_van.logic.Uploader;
-public class VanLoaderLogic implements Uploader {
+import com.epam.coffee_van.logic.Loader;
+public class VanLoaderLogic implements Loader {
 	private VanLoader loader;
 	private VanLogic vanLogic;
 

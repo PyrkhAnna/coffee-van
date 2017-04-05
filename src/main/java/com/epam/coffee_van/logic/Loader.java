@@ -1,5 +1,5 @@
 package com.epam.coffee_van.logic;
 
-public interface Uploader {
+public interface Loader {
 	public boolean loadFromStock(); 
 }
