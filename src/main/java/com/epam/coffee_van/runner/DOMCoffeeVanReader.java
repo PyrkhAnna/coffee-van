@@ -15,7 +15,7 @@ import org.xml.sax.SAXException;
 import com.epam.coffee_van.parser.VanDOMParser;
 import com.epam.coffee_van.util.Configuration;
 
-public class DOMCoffeeVanReader implements CoffeeVanDataReader {
+public class DOMCoffeeVanReader implements CoffeeVanReader {
 	private final static Logger Log = LogManager.getLogger("DOMCoffeeVanReader.class");
 	
 	@Override
